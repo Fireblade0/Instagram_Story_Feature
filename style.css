@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background:radial-gradient(rgb(135, 235, 235),rgb(167, 167, 232));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card
+{
+    height: 320px;
+    width: 200px;
+    background:radial-gradient(rgb(232, 214, 180),rgb(233, 212, 171));
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+}
+#storiyan{
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid rgb(231, 227, 227);
+    padding: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+/*#storiyan::-webkit-scrollbar{
+    background-color: aquamarine;
+    height: 5px;
+}
+#storiyan::-webkit-scrollbar-thumb{
+    background-color: antiquewhite;
+    border-radius: 50px;
+}*/
+.story{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(245, 102, 102);
+    display: inline-block;
+    overflow: hidden;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#full-scr{
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+background-color:transparent;
+display: none;
+background-size: cover;
+background-position: center;
+
+}
+
+#progress{
+    height: 3px;
+    width: 100%;
+    background-color: #9e9c9c;
+    margin-top: 5px;
+}
+h5{
+    margin-top: 10px;
+    margin-left: 179px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#growth{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+}
+h2{
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    font-family: Buttermilk;
+    font-size: 50px;
+    color: #fff;
+}
